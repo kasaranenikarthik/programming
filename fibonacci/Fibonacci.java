@@ -10,7 +10,7 @@ class Fibonacci {
 
   private static void printFibonacciSeries(long num) {
     long a = 1, b = 1;
-    StringBuilder sb = new StringBuilder();
+    StringBuilder sb = new StringBuilder();//creating object to class
     while (num-- > 0) {
       sb.append(a);
       if (num > 0) {
